@@ -14,5 +14,14 @@ setup = function() {
   text(x+250, x+250, 20);
   text(x+300, x+300, 20);
   text(x+350, x+350, 20);
+
+  var message = "Hello ?";
+
+  var y= 90;
+  while(y < 279){
+    text(message + y, 30, y);
+    y+= 50;
+  }
+
 };
 
